@@ -13,6 +13,3 @@ No. The password is only used for the sudo command in the terminal. It is NEVER 
 
 **Why does WiFi have to be disabled?**
 By disabling and re-enabling WiFi, it allows the MAC address to be changed while it is reconnecting to your network.
-
-**Can I change what network interface it edits?**
-Only by editing my code can you change what network interface is edited. I plan to add support for that in the future, but right now the basic release can only change the 'en0' network interface. 
