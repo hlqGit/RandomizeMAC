@@ -1,5 +1,5 @@
-# A Tool to Randomize Your MAC
-That's all it does. It only works on MacOS with arm architecture, sadly it is currently incompatible with Intel-based Macs. After Sonoma 14.4, the airport command-line tools were retired, making MAC randomizers much more complicated.
+# A Tool to edit Your MAC address
+That's what it does! It only works on MacOS with arm architecture, sadly it is currently incompatible with Intel-based Macs. After the MacOS Sonoma 14.4 update, the airport command-line tools were retired, making MAC randomizers much more complicated.
 
 ## How Does it Work?
 By disabling and re-enabling wifi, there is a small point in time where WiFi is enabled, but also not connected to a network. That is the only time where you are able to change a MAC address. This program executes the commands in a very specific order so that your MAC address can change.
